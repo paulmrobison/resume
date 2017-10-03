@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+         "location": "Las Vegas, NV",
+        "desire": 8,
+        "ability": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.15525817871092,
+          36.16892253622743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+         "location": "Grand Canyon, AZ",
+        "desire": 10,
+        "ability": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3187255859375,
+          36.34610265300638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "location": "Mt.Etna, It",
+        "desire": 5,
+        "ability": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -345.02014160156244,
+          37.77505678240509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "location": "Krakow, PL",
+        "desire": 8,
+        "ability": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -340.05706787109375,
+          50.0677178281599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "location": "Melbourn, AU",
+        "desire": 6,
+        "ability": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -215.035400390625,
+          -37.75334401310657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "location": "Auckland, NZ",
+        "desire": 8,
+        "ability": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -185.23773193359375,
+          -36.85984517196145
+        ]
+      }
+    }
+  ]
+}

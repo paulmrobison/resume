@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <title>Paul M. Robison</title>
+            <link rel="stylesheet" href="./Style.css">
+            <link rel="stylesheet" href="./FA/font-awesome.min.css">
+        <style>
+        #map    {
+        width: 100%;
+        height: 400px;
+           
+        }
+        </style>
+    </head>
+
+    <body>  
+         <!--Header
+         <div id="title-wrapper" class="wrapper">
+                <div id "header">
+                    <!-- Logo
+                        <div >
+                            <a id = "logo"; href= "index.html">Paul M. Robison<i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                        </div> 
+                        <br>
+                    <!-- Nav
+                                            <div id = "Nav">
+                            <a href="Rand.html">Randomization Explained</a>
+                            <a id="BucketList" href="BucketList.html">Bucket List</a>
+                            <a href="travel.html">Travel</a>   
+                        </div> 
+                </div>
+        </div> -->       
+      
+        <h3>My Google Maps Demo</h3>
+        <div id="map"></div>
+            
+            <script>
+                    function initMap() {
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 2,
+                    center: {lat:-28, lng:137},
+                    
+                    });
+                    map.data.loadGeoJson('bucket.geojson');
+                    }
+                      
+            </script>
+        
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpo6yWI0eUaOc_VIOPxnWeJANY7o293hE&callback=initMap">
+            </script>
+          
+        <!--Footer
+        <div id="footer-wrapper" class="wrapper">
+                <div id "Footer">
+                    <div id = "flogo">
+                        <p>Socialize</p>
+                        <a href="https://www.linkedin.com/in/paul-robison-316a3a7b">linkedin</a>
+                        <br>                       
+                        <img src="PMRLogo.png" alt="PMRLogo" style="width:50px;height:50px;">
+                    </div> 
+                    <br>
+                       
+                </div>
+        </div>-->
+    </body>
+
+
+</html>
