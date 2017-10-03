@@ -40,10 +40,19 @@
         	<span class="navbar-toggler-icon"></span>
       	</button>
 
+      
+
       <div class="navbar-collapse collapse" id="navbarsExample01" style="">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only" >(current)</span></a>
+
+            <a class="nav-link" href="#">Home <span class="sr-only" >(current)</span><img id="QR" src= "gitqr.png" height="5%" width="5%"></a>
+            <div id="myModal" class ="modal">
+              <span class = "close" style="color: white";
+              onclick="document.getElementById('myModal').style.display='none'">x</span>
+              <img class="modal-content" id="img01"
+              <div id="share my resume with QR Code"</div>
+              </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/paul-robison-316a3a7b">  <span class="glyphicon glyphicon-link" style="margin-right:10px;"></span>LinkedIn</a>
@@ -293,8 +302,8 @@
   	</div>
 </div>
 --> 
-
-<p><img src="raleighcity.jpg" height="100%" width="100%"></p>
+<div style="height": 40px; "width" 100%;>
+<p><img class="imgindex"src="raleighcity.png" height="100%" width="100%"></p>
 
 <!--ACCORDIAN COLLAPSE-->
 
@@ -408,7 +417,7 @@
               <div class="card-body">
                   <h4 class="card-title">GMaps/GeoJson</h4>
                   <p class="card-text">Google Maps API with GeoJson Overlay</p>
-                  <a href="BucketList.html" class="btn btn-primary">Bucket List</a>
+                  <a href=" BucketList.html" class="btn btn-primary">Bucket List</a>
               </div>
         </div>
       </div>
@@ -425,13 +434,15 @@
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          Certifications/Accolades
         </a>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <p> <span class="glyphicon glyphicon-ok-circle" style="margin-right:10px;"></span>A+ Certification</p>
+        <p> <span class="glyphicon glyphicon-ok-circle" style="margin-right:10px;"></span>HTML Certificaton (Dec 2017)</p>
+        <p><span class="glyphicon glyphicon-ok-circle" style="margin-right:10px;"></span>Code Certification (Dec 2017)</p>
       </div>
     </div>
   </div>
@@ -441,8 +452,11 @@
 
 
     <script src="popper.js"></script>
+    <script src="QR.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 </body>
+
+
 </html>
 <!--   QR CODE EMBED
 //<img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fpaulmrobison.github.io%2Fresume%2F%23Web&chs=180x180&choe=UTF-8&chld=L|2' rel='nofollow' alt='qr code'><a href='http://www.qrcode-generator.de' border='0' style='cursor:default'  rel='nofollow'></a>-->
