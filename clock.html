@@ -49,6 +49,8 @@
         0 0 10px rgba(0,0,0,0.2);
     }
 
+
+
     .clock-face {
       position: relative;
       width: 100%;
@@ -56,10 +58,34 @@
       transform: translateY(-3px); /* account for the height of the clock hands */
     }
 
-    .hand {
+    .hand.hour-hand {
+      width:50%;
+      height:10px;
+      background:grey;
+      position: absolute;
+      top:50%;
+      transform-origin: 100%;
+      transform:rotate (90deg);
+      transition: all 0.05s;
+      transition-timing-function:cubic-bezier(0.8, 4.7, 0.58, 1);
+    }
+
+    .hand.min-hand {
       width:50%;
       height:6px;
-      background:grey;
+      background:white;
+      position: absolute;
+      top:50%;
+      transform-origin: 100%;
+      transform:rotate (90deg);
+      transition: all 0.05s;
+      transition-timing-function:cubic-bezier(0.8, 4.7, 0.58, 1);
+    }
+
+    .hand.second-hand{
+      width:50%;
+      height:3px;
+      background:blue;
       position: absolute;
       top:50%;
       transform-origin: 100%;
